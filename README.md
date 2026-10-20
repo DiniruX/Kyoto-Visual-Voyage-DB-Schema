@@ -8,14 +8,6 @@ Kyoto Visual Voyage is a sightseeing app for Kyoto. Visitors browse places such 
 
 The backend is a FastAPI service on PostgreSQL. It also builds day-by-day itineraries and ranks places for each traveller using their likes, saves and clicks. This page documents the database behind it. It is the MP-4 project at KCGI, Spring 2026.
 
-**14**tables
-
-**3**domains
-
-**4**enum types
-
-**1**hub table: items_v1
-
 ## Overview
 
 Every table and every relationship, without columns. `items_v1` is the hub: all three domains reference it.
